@@ -1,0 +1,39 @@
+.ribbon {
+  width: 125px; 
+}
+
+#add_fb_input {
+  Width: 106px; 
+  height: 23px; 
+  margin: 0px; 
+  padding: 0px;
+}
+
+.twitter-follow-button {
+  float: right;
+  height: 21px;
+  margin: 0 3px 0 0;
+}
+
+.portrait {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+
+.skills {
+  text-align: left;
+}
+
+.skills .caption {
+  text-align: left;
+  left: 0;
+  right: auto;
+}
+
+.skills p {
+  margin-left: 275px;
+}
+
+.column .subtitle {
+  font-size:1.25em;
+}
