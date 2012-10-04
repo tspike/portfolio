@@ -1,0 +1,152 @@
+/* Document layout */
+
+@page {
+  size: 8.5in 11in;
+  margin: 0.5in;
+}
+
+html, body {
+  font-family: "Gill Sans", Tahoma, Verdana;
+  height: 100%;
+}
+
+#container {
+  height: 100%;
+}
+
+#content-left {
+  width: 75%;
+  height: 100%;
+  margin: 0 2% 0 0;
+  padding: 0;
+  float: left;
+  clear: left;
+  page-break-before: always;
+}
+
+#content-right {
+  width: 23%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  text-align: right;
+  page-break-after: always;
+}
+
+#timeline {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 13%;
+  height: 100%;
+  display: table;
+}
+
+#experience {
+  float: left;
+  margin: 0;
+  padding: 0;
+  /*height: 100%;*/
+}
+
+.job-description {
+  font-family: "Baskerville", Times;
+  margin: 0.7em;
+}
+
+/* ----- */
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 30pt;
+  font-weight: normal;
+}
+
+h2 {
+  margin: 0.3em 0 0 0;
+  padding: 0;
+  font-size: 15pt;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 0.5em 0 0 0;
+  padding: 0;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 11pt;
+  font-weight: 300;
+}
+
+h5 {
+  margin: 0.5em 0 0 0;
+  padding: 0;
+  font-size: 10pt;
+  font-weight: 400;
+}
+
+address {
+  font-style: normal;
+  margin-bottom: 1.5em;
+}
+
+/* ----- */
+
+.sidebar-text {
+  margin: 0;
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+.year {
+  display: table-row;
+}
+
+.year-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#y2012 {
+  height: 20em;
+  margin: 0;
+  padding: 0;
+}
+
+#y2011 {
+  height: 20em;
+  margin: 0;
+  padding: 0;
+}
+
+#y2010 {
+  height: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+#y2009 {
+  height: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+#y2008 {
+  height: 15%;
+  margin: 0;
+  padding: 0;
+}
+
+#y2007 {
+  height: 10%;
+  margin: 0;
+  padding: 0;
+}
